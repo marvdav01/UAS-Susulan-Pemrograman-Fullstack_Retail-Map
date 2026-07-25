@@ -2,6 +2,15 @@
 
 **RetailMap** adalah sebuah prototipe aplikasi web interaktif yang dirancang untuk mengelola dan memvisualisasikan lokasi cabang toko di atas peta dunia secara *real-time*. Proyek ini dibangun untuk memenuhi kriteria penilaian UAS Susulan mata kuliah **Pemrograman Fullstack**.
 
+## 📸 Tampilan Antarmuka Aplikasi
+
+![Tampilan Dashboard RetailMap](screenshot.png)
+
+Aplikasi memiliki antarmuka modern yang terbagi menjadi beberapa bagian utama:
+- **Sidebar (Kiri)**: Panel kontrol utama yang menampilkan statistik total cabang dan form untuk menambah lokasi baru. Form ini terintegrasi dengan fitur klik-peta, sehingga koordinat (Latitude & Longitude) akan otomatis terisi saat pengguna mengklik titik di peta.
+- **Peta Interaktif (Kanan Atas)**: Visualisasi geografis (menggunakan Leaflet.js & CartoDB) yang menampilkan pin lokasi seluruh toko. Terdapat indikator status server dan koneksi database (Supabase) di atas peta.
+- **Tabel Data (Kanan Bawah)**: Daftar lengkap toko yang tersimpan di database. Tabel ini dilengkapi dengan kolom pencarian untuk memfilter toko, serta tombol aksi cepat untuk mengedit (Edit) atau menghapus (Hapus) data.
+
 ---
 
 ## 🚀 Fitur Utama (Features)
