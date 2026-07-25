@@ -111,4 +111,4 @@ npm run dev
 Buka **`http://localhost:8000`** di browser Anda, dan aplikasi RetailMap siap digunakan!
 
 ---
-*Dibuat oleh Marviel David 411231222 untuk keperluan UAS Susulan.*
+*Dibuat oleh Marviel David 411231222 untuk keperluan UAS Pemrograman Fullstack Susulan.*
